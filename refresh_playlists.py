@@ -18,7 +18,6 @@ def connect_to_plex(username, password, server_name):
 
     account = MyPlexAccount(username, password)
     plex = account.resource(server_name).connect()
-
     return plex
 
 
