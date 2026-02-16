@@ -1,10 +1,10 @@
-FROM python:3.6.12-alpine3.12
+FROM python:latest
 
 COPY . .
 
 RUN pip install -r requirements.txt
-
-RUN crontab crontab
-
-CMD ["crond", "-f"]
-#CMD ["python",  "/refresh_playlists.py"]
+#RUN apt-get install -y cron
+#RUN crontab crontab
+#
+#CMD ["crond", "-f"]
+CMD ["python",  "/refresh_playlists.py"]

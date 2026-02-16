@@ -4,9 +4,14 @@ from datetime import date
 import logging
 import configparser
 import random
+import os
+
+# Get the directory where this script is located
+script_dir = os.path.dirname(os.path.abspath(__file__))
+config_path = os.path.join(script_dir, "plex_config.ini")
 
 plex_config = configparser.ConfigParser()
-plex_config.read("/plex_config.ini")
+plex_config.read(config_path)
 
 TODAY = date.today()
 
