@@ -4,9 +4,10 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: plex_shuffle
-#    restart: unless-stopped
+    restart: unless-stopped
     environment:
       - TZ=America/Los_Angeles
+    volumes:
+      - ./plex_config.ini:/app/plex_config.ini
     labels:
       - "com.centurylinklabs.watchtower.enable=false"
-    # Add other configuration options for your service here, e.g., ports, volumes, environment variables, etc.

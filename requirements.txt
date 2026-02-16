@@ -1,7 +1,8 @@
 certifi
 chardet
 idna
-PlexAPI
+PlexAPI>=4.17.2
+questionary
 requests
 six
 tqdm

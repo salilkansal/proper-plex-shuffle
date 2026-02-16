@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/Salil/PycharmProjects/proper-plex-shuffle log --oneline)",
+      "Bash(cmd.exe:*)"
+    ]
+  }
+}

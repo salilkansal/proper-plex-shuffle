@@ -1,1 +1,1 @@
-@daily python /refresh_playlists.py >> /logfile
+0 0 * * * /usr/local/bin/python3 /app/refresh_playlists.py >> /var/log/plex_shuffle.log 2>&1

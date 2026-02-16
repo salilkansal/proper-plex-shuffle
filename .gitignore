@@ -128,3 +128,7 @@ env
 # End of https://www.gitignore.io/api/python,jupyternotebooks
 
 plex_config.ini
+
+# Local dev
+venv/
+.idea/
