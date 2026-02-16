@@ -1,8 +1,6 @@
 services:
   plex_shuffle:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: ghcr.io/salilkansal/proper-plex-shuffle:latest
     container_name: plex_shuffle
     restart: unless-stopped
     environment:
@@ -10,4 +8,4 @@ services:
     volumes:
       - ./plex_config.ini:/app/plex_config.ini
     labels:
-      - "com.centurylinklabs.watchtower.enable=false"
+      - "com.centurylinklabs.watchtower.enable=true"

@@ -132,3 +132,4 @@ plex_config.ini
 # Local dev
 venv/
 .idea/
+.claude/

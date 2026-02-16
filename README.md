@@ -1,5 +1,7 @@
 # Proper Plex Shuffle
 
+[![Build and Push Docker Image](https://github.com/salilkansal/proper-plex-shuffle/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/salilkansal/proper-plex-shuffle/actions/workflows/docker-publish.yml)
+
 Plex has a [well-documented](https://www.reddit.com/r/PleX/comments/5ic0fh/it_has_been_years_can_plex_please_fix_their/db7wdm1/) shuffle problem: because of the [Birthday Problem](https://en.wikipedia.org/wiki/Birthday_problem), truly random shuffles feel repetitive and keep surfacing recently-watched content.
 
 **Proper Plex Shuffle** fixes this by automatically rebuilding your TV show playlists daily using a tiered shuffle algorithm that always puts your least-watched episodes first.

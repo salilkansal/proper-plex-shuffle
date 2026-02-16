@@ -1,0 +1,12 @@
+.git
+.github
+.gitignore
+.idea
+.claude
+venv
+__pycache__
+*.pyc
+plex_config.ini
+README.md
+docker-compose.yml
+.dockerignore
